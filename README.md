@@ -1,2 +1,2 @@
 # My-first-project
-Well... I have a dream that i can study at MIT, Stanford, and this project is how i start the journey...
+Well... I have a dream that i can study at MIT, Stanford, and this project is how i start the journey.
