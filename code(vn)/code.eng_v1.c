@@ -28,7 +28,7 @@ int main() {
     } 
     h = h / c; 
     sumy = sum(matrix, sumy); 
-    avgy = tb_cong(matrix, avgy, c, h); 
+    avgy = avg(matrix, avgy, c, h); 
     printf("The sum of your matrix is: %d\n", sumy); 
     printf("The average of your matrix is: %f\n", avgy);
     return 0;

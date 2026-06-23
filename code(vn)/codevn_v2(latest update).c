@@ -7,8 +7,8 @@ int tong(int a, int b, int ma_tran[a][b], int tongx) {
     }
     return tongx;
 }
-float tb_cong(float tb_congx, int tongy, int a, int b) { 
-    tb_congx = (float)tongy / (a * b); 
+float tb_cong(float tb_congx, int tongz, int a, int b) { 
+    tb_congx = (float)tongz / (a * b); 
     return tb_congx;
 }
 int main() {
@@ -18,10 +18,17 @@ int main() {
     float tb_congy = 0;
     printf("Nhap gia tri hang ma tran cua ban:  \n");
     scanf("%d", &p);
+    while (p <= 0) {
+        printf("Gia tri phai la so tu nhien:  \n");
+        scanf("%d", &p);
+    }
     printf("Nhap gia tri cot ma tran cua ban:  \n");
     scanf("%d", &q);
+    while (q <= 0) {
+        printf("Gia tri phai la so tu nhien:  \n");
+        scanf("%d", &q);
+    }
     int ma_tran[p][q];
-    printf("Nhan Enter: \n"); 
     for (int i = 0; i < p; i++) {
         printf("Nhap gia tri ma tran tai hang %d\n", i);
         for (int j = 0; j < q; j++) {
