@@ -8,6 +8,7 @@ int tong(int a, int b, int ma_tran[a][b], int tongx) {
     return tongx;
 }
 float tb_cong(float tb_congx, int tongz, int a, int b) { 
+    tongz = 0;
     tb_congx = (float)tongz / (a * b); 
     return tb_congx;
 }
