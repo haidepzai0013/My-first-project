@@ -1,5 +1,6 @@
 #include <stdio.h>
 int tong(int a, int b, int ma_tran[a][b], int tongx) { 
+    int tongx = 0;
     for (int m = 0; m < a; m++) { 
         for (int n = 0; n < b; n++) { 
             tongx += ma_tran[m][n]; 
@@ -8,7 +9,6 @@ int tong(int a, int b, int ma_tran[a][b], int tongx) {
     return tongx;
 }
 float tb_cong(float tb_congx, int tongz, int a, int b) { 
-    tongz = 0;
     tb_congx = (float)tongz / (a * b); 
     return tb_congx;
 }
