@@ -39,7 +39,7 @@ int main() {
     }
     tongy = tong(p, q, ma_tran, tongy); 
     tb_congy = tb_cong(tb_congy, tongy, p, q); 
-    printf("Tong gia tri ma tran cua ban la: %d", tongy); 
-    printf("TB Cong ma tran cua ban la: %f", tb_congy);
+    printf("Tong gia tri ma tran cua ban la: %d\n", tongy); 
+    printf("TB Cong ma tran cua ban la: %f\n", tb_congy);
     return 0;
 }
